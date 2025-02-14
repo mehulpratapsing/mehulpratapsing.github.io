@@ -51,7 +51,7 @@ export default function PlaygroundPage() {
           <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-primary/20 to-secondary/20 opacity-50 blur-xl group-hover:opacity-75 transition-opacity duration-500 -z-10" />
 
           <div className="flex flex-col lg:flex-row gap-12 p-8 bg-black/30 backdrop-blur-xl rounded-3xl border border-primary/10 shadow-2xl">
-            <div className="lg:w-2/3 space-y-8">
+            <div className="lg:w-2/3 space-y-6">
               <h2 className="text-5xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent animate-text-shine">
                 Architecting Intelligent Systems
               </h2>
@@ -91,20 +91,20 @@ export default function PlaygroundPage() {
               </div>
             </div>
 
-            <div className="lg:w-1/3 space-y-8">
+            <div className="lg:w-1/4 space-y-8">
               <div className="relative aspect-square rounded-2xl overflow-hidden border-2 border-primary/30 hover:border-primary/50 transition-all duration-500 transform hover:scale-105 holographic-effect">
                 <Image
                   src="/avaatar.png"
                   alt="Mehul Pratap Singh"
                   // layout="fill"
                   // objectFit="cover"
-                  width={300} // Adjust width as needed
+                  width={250} // Adjust width as needed
                   height={200}
                   className="rounded-2xl"
                 />
               </div>
 
-              <div className="space-y-6">
+              <div className="space-y-5">
                 <a
                   href="https://drive.google.com/file/d/1fEI1LiqRRkxY5gjTKdLZDM_KtTLGkrBM/view?usp=sharing"
                   target="_blank"
@@ -236,9 +236,9 @@ function SkillsSection() {
 function ProjectsSection() {
   const projects = [
     {
-      title: "RAG Pipeline Optimizer",
-      description: "Next-gen retrieval system with hybrid search capabilities",
-      technologies: ["LangChain", "Pinecone", "Llama 2"],
+      title: "ATS Friendly Resume-Builder",
+      description: "Next-gen resume building and analysis system with 80+ ATS scring resume",
+      technologies: ["Python","LangChain","Deepseek-r1","Open Router","Streamlit"],
     },
     {
       title: "AI-Powered Code Reviewer",
